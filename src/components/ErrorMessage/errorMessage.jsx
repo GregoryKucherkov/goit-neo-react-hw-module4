@@ -1,6 +1,10 @@
+import css from "./errorMessage.module.css";
+
 function ErrorMessage() {
   return (
-    <div>The error occured, don&apos;t worry, try reloading the page!</div>
+    <div className={css.errorMsg}>
+      The error occured, don&apos;t worry, try reloading the page!
+    </div>
   );
 }
 

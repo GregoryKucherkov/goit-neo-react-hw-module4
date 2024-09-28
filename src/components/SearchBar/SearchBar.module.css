@@ -37,7 +37,9 @@
   background: transparent;
 }
 
+.headerBtn:hover,
 .headerBtn:focus {
   border: none;
   outline: none;
+  color: lightblue;
 }

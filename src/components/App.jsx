@@ -75,13 +75,13 @@ function App() {
       {photos.length > 0 && totalPage > page && (
         <LoadMoreBtn handleClick={handlePage} />
       )}
-      {isOpen && (
-        <ImageModal
-          modalIsOpen={isOpen}
-          selectedPhoto={selectedPhoto}
-          closeModal={closeModal}
-        />
-      )}
+
+      <ImageModal
+        modalIsOpen={isOpen}
+        selectedPhoto={selectedPhoto}
+        closeModal={closeModal}
+      />
+
       <Toaster />
     </>
   );
